@@ -133,15 +133,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
-        {/* Bottom Bar */}
-        <div className="border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-[13px] font-medium text-slate-500 dark:text-slate-500 uppercase tracking-widest">
-          <p>© {currentYear} Mahesh Darji. All Rights Reserved.</p>
-          <p className="flex items-center gap-2">
-            Built with <span className="text-red-500 text-lg">♥</span> using
-            React & Tailwind
-          </p>
-        </div>
       </div>
     </footer>
   );
