@@ -3,7 +3,7 @@
 Building digital experiences with .NET, React, and modern UI/UX principles.
 
 ### 🔗 Live Preview
-[View My Portfolio Here](maheshdarji.vercel.app)
+[View My Portfolio Here](https://maheshdarji.vercel.app/)
 
 ---
 
