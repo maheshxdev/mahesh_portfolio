@@ -4,7 +4,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-white dark:bg-[#0a1120] border-t dark:border-slate-800 pt-16 pb-32 transition-colors">
+    <footer className="bg-white dark:bg-[#0a1120] border-t dark:border-slate-800 pt-16 pb-5 transition-colors">
       <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           {/* Brand & Bio */}
@@ -132,6 +132,11 @@ const Footer = () => {
               </a>
             </div>
           </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-center items-center gap-6 text-[13px] font-medium text-slate-500 dark:text-slate-500 uppercase tracking-widest">
+          <p>© {currentYear} Mahesh Darji. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
